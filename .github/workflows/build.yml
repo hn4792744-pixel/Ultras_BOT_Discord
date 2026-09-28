@@ -16,4 +16,6 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: ULTRAS_bans_v1
-          path: target/ULTRAS_bans_v1-*.jar
+          path: |
+            target/ULTRAS_bans_v1-*.jar
+            target/ULTRAS_bans_velocity-*.jar
