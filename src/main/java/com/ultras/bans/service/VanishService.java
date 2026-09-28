@@ -1,0 +1,3 @@
+package com.ultras.bans.service;
+import com.ultras.bans.ULTRASBansPlugin; import org.bukkit.entity.Player; import java.util.*; import java.util.concurrent.ConcurrentHashMap;
+public final class VanishService {private final ULTRASBansPlugin p;private final Set<UUID> set=ConcurrentHashMap.newKeySet();public VanishService(ULTRASBansPlugin p){this.p=p;}public boolean toggle(Player x){boolean on=set.add(x.getUniqueId());for(Player q:p.getServer().getOnlinePlayers()){if(q.equals(x))continue;if(on&&!q.hasPermission("ultrasbans.vanish"))q.hidePlayer(p,x);else q.showPlayer(p,x);}return on;}public boolean isVanished(UUID u){return set.contains(u);}}

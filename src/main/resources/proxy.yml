@@ -1,0 +1,5 @@
+enabled: true
+mode: auto
+server-id: server-1
+refresh-seconds: 5
+plugin-message-channel: "ultras:bans"

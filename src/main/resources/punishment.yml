@@ -1,0 +1,6 @@
+default-reason: "No reason specified."
+max-temporary-days: 30
+broadcast:
+  enabled: true
+  staff-only: true
+expiry-check-seconds: 5

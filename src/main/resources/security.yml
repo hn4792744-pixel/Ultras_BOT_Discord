@@ -1,0 +1,9 @@
+enabled: true
+protect-op: true
+actions: 5
+window: 20s
+tracked: [KICK, BAN, IP_BAN, MUTE, JAIL, FREEZE]
+after-threshold:
+  alert-staff: true
+  discord-alert: true
+  action: NONE

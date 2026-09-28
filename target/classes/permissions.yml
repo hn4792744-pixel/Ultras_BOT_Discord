@@ -1,0 +1,7 @@
+default-rank: default
+ranks:
+  default: []
+  helper: [ultrasbans.warn, ultrasbans.freeze]
+  moderator: [ultrasbans.warn, ultrasbans.freeze, ultrasbans.mute, ultrasbans.kick, ultrasbans.jail]
+  administrator: [ultrasbans.*]
+  owner: [ultrasbans.*]

@@ -1,0 +1,52 @@
+name: ULTRAS_bans_v1
+version: 1.0.0
+main: com.ultras.bans.ULTRASBansPlugin
+api-version: '1.21'
+author: UC_Hussein
+description: Production-ready ULTRAS punishment and administration system.
+website: https://discord.gg/ucx
+softdepend: [Geyser-Spigot, floodgate, PlaceholderAPI]
+commands:
+  ban: {description: Ban a player}
+  ipban: {description: IP ban a player or IP}
+  ip_ban: {description: IP ban alias}
+  unipban: {description: Unban an IP}
+  mute: {description: Mute a player}
+  unmute: {description: Unmute a player}
+  unban: {description: Unban a player}
+  kick: {description: Kick a player}
+  unjail: {description: Unjail a player}
+  warn: {description: Warn a player}
+  freeze: {description: Freeze a player}
+  frz: {description: Freeze alias}
+  jail: {description: Jail a player}
+  setjail: {description: Set jail location}
+  vn: {description: Vanish}
+  nv: {description: Vanish alias}
+  admin: {description: Administration GUI}
+  tam: {description: Central administration command}
+  game0: {description: Survival}
+  game1: {description: Creative}
+  game2: {description: Adventure}
+  game3: {description: Spectator}
+  games: {description: Gamemode GUI}
+  tp: {description: Teleport}
+  tphere: {description: Bring player}
+  ip_list: {description: IP information}
+  ultrasbans: {description: Reload ULTRAS BANS}
+  ub: {description: ULTRAS BANS alias}
+permissions:
+  ultrasbans.admin: {default: op}
+  ultrasbans.ban: {default: op}
+  ultrasbans.ipban: {default: op}
+  ultrasbans.mute: {default: op}
+  ultrasbans.warn: {default: op}
+  ultrasbans.kick: {default: op}
+  ultrasbans.freeze: {default: op}
+  ultrasbans.jail: {default: op}
+  ultrasbans.vanish: {default: op}
+  ultrasbans.teleport: {default: op}
+  ultrasbans.gamemode: {default: op}
+  ultrasbans.logs: {default: op}
+  ultrasbans.permissions: {default: op}
+  ultrasbans.reload: {default: op}

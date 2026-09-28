@@ -1,0 +1,16 @@
+ULTRAS_bans_v1 build verification
+
+Static/resource checks performed in the packaging environment:
+- Java source files present: 24
+- YAML resources validated: 28 / 28
+- plugin.yml commands: 28
+- plugin.yml permissions: 14
+- GitHub Actions Maven build workflow: present
+
+Maven runtime verification:
+NOT RUN IN THIS ENVIRONMENT.
+Reason: Maven is not installed and outbound network/DNS is unavailable, so Paper API and JDBC dependencies could not be resolved here.
+
+Do not treat this file as a successful Maven build result. Run:
+  mvn clean package -DskipTests
+or push to GitHub and let .github/workflows/build.yml execute.

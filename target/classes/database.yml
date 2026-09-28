@@ -1,0 +1,9 @@
+type: sqlite
+sqlite-file: data.db
+mysql:
+  host: localhost
+  port: 3306
+  database: ultras_bans
+  username: root
+  password: ""
+  pool-size: 8

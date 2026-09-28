@@ -1,0 +1,16 @@
+language: en
+server-name: "ᴜʟᴛʀᴀs"
+links:
+  discord: "https://discord.gg/ucx"
+features:
+  sounds: true
+  broadcasts: true
+  protect-op: true
+  allow-admin-override-op: true
+  teleport-all: true
+  auto-vanish-on-teleport: false
+database-file: database.yml
+permissions-file: permissions.yml
+security-file: security.yml
+punishment-file: punishment.yml
+proxy-file: proxy.yml

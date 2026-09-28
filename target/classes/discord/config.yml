@@ -1,0 +1,6 @@
+enabled: false
+mode: webhook
+webhook-url: ""
+language: en
+username: "ULTRAS BANS"
+rate-limit-ms: 750
