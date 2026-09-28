@@ -1,0 +1,9 @@
+{
+  "id": "ultras_bans_velocity",
+  "name": "ULTRAS BANS Velocity",
+  "version": "1.0.0",
+  "description": "ULTRAS BANS Velocity network bridge",
+  "authors": ["UC_Hussein"],
+  "main": "com.ultras.bans.velocity.ULTRASBansVelocity",
+  "dependencies": []
+}

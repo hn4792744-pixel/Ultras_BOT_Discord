@@ -1,11 +1,15 @@
 com/ultras/bans/gui/GUIService$Holder.class
 com/ultras/bans/listener/PlayerListener.class
+velocity-plugin.json
 com/ultras/bans/service/FreezeService.class
 com/ultras/bans/service/PunishmentService$1.class
+com/ultras/bans/service/NetworkMessageListener.class
 com/ultras/bans/gui/GUIService$1.class
+com/ultras/bans/velocity/ULTRASBansVelocity.class
 com/ultras/bans/model/PunishmentType.class
 com/ultras/bans/security/SecurityService.class
 com/ultras/bans/service/JailService.class
+com/ultras/bans/service/NetworkChannel.class
 com/ultras/bans/model/PlayerRecord.class
 com/ultras/bans/model/PunishmentStatus.class
 com/ultras/bans/listener/ChatListener.class
@@ -13,6 +17,7 @@ com/ultras/bans/service/PlayerService.class
 com/ultras/bans/service/PunishmentService.class
 com/ultras/bans/service/JailInventoryService.class
 com/ultras/bans/gui/GUIService.class
+com/ultras/bans/service/NetworkMessageSender.class
 com/ultras/bans/service/NetworkEnforcer.class
 com/ultras/bans/database/Database.class
 com/ultras/bans/config/ConfigManager.class

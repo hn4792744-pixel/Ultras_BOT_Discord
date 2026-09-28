@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="maven-antrun-" default="main">
+  <target name="main">
+    <mkdir dir="/storage/emulated/0/Download/Ultras_BOT_Discord/target/velocity-jar" />
+    <copy todir="/storage/emulated/0/Download/Ultras_BOT_Discord/target/velocity-jar/com/ultras/bans/velocity">
+      <fileset dir="/storage/emulated/0/Download/Ultras_BOT_Discord/target/classes/com/ultras/bans/velocity" />
+    </copy>
+    <copy todir="/storage/emulated/0/Download/Ultras_BOT_Discord/target/velocity-jar">
+      <fileset dir="/storage/emulated/0/Download/Ultras_BOT_Discord/src/velocity/resources" />
+    </copy>
+    <jar basedir="/storage/emulated/0/Download/Ultras_BOT_Discord/target/velocity-jar" destfile="/storage/emulated/0/Download/Ultras_BOT_Discord/target/ULTRAS_bans_velocity-1.0.0.jar" />
+  </target>
+</project>
